@@ -11,6 +11,7 @@ public class Factorial {
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter num of which You want find Factorial :");
         int num = sc.nextInt();
         System.out.println("Factorial = "+factorial(num));
     }
